@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Audiowide", sans-serif; */
+/* font-family: "Urbanist", sans-serif; */
+
+:root {
+  --sinopia: #DD4923;
+  --pumpkin: #E97A32;
+  --xanthous: #F9B337;
+  --rich-black: #0B0303;
+  --rosewood: #451218;
+  --licorice: #1A0503;
+  --timberwolf: #D6D6D6;
+  --white: #f4f4f4;
+}
+
+body,
+main {
+  background-color: #E4E4E4;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Urbanist", sans-serif;
+}

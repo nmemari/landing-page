@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.container h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 500px;
+    background-color: var(--timberwolf);
+    border-radius: 5px;
+    border-top: 20px solid;
+}
+
+.card p {
+    width: 80%;
+    font-size: 20px;
+}

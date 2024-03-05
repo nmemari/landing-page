@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: var(--rich-black);
+}
+
+.container button {
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--pumpkin);
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 200ms;
+}
+
+.container button:hover {
+    background-color: var(--xanthous);
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: var(--pumpkin);
+}
